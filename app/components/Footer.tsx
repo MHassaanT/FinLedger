@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const footerLinks = {
     Services: [
         { label: "Bank Reconciliation", href: "#services" },
-        { label: "Invoice & Billing", href: "#services" },
+        { label: "Receivables & Payables", href: "#services" },
         { label: "Financial Reports", href: "#services" },
         { label: "Forecasting", href: "#services" },
     ],

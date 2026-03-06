@@ -98,12 +98,11 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
-                    className="mt-20 grid grid-cols-3 gap-8 border-t border-[#D4AF37]/10 pt-10"
+                    className="mt-20 grid grid-cols-2 gap-8 border-t border-[#D4AF37]/10 pt-10"
                 >
                     {[
                         { value: "100%", label: "Accuracy Rate" },
-                        { value: "500+", label: "Businesses Served" },
-                        { value: "10+", label: "Years Experience" },
+                        { value: "17+", label: "Years Experience" },
                     ].map((stat) => (
                         <div key={stat.label} className="text-center">
                             <div className="text-3xl sm:text-4xl font-black text-[#D4AF37] gold-text-glow mb-1">

@@ -22,7 +22,7 @@ const services = [
         ),
         title: "Bank & Credit Card Reconciliation",
         desc: "Error-free cash flow management with meticulous reconciliation of all accounts, ensuring your books match your reality — down to the last cent.",
-        tags: ["Cash Flow", "Accuracy", "Monthly Closing"],
+        tags: ["Cash Flow", "Accuracy", "Month Closing"],
     },
     {
         id: "invoice-bill",
@@ -40,9 +40,9 @@ const services = [
                 <path d="M31 34h6M34 31v6" stroke="url(#g2)" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
         ),
-        title: "Invoice & Bill Creation",
+        title: "Receivables and Payables",
         desc: "Streamlined accounts payable and receivable — professional invoicing, timely bill management, and complete visibility over your payment cycles.",
-        tags: ["AR/AP", "Invoicing", "Payments"],
+        tags: ["Accounts Receivable", "Accounts Payable", "Invoicing", "Payments"],
     },
     {
         id: "financial-reporting",
